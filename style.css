@@ -1685,7 +1685,12 @@ ul.menu__list li {
 }
 
 .repare-by-type__read-more {
-  display: inline-block;
+  display: none;
+}
+@media (min-width: 768px) {
+  .repare-by-type__read-more {
+    display: block;
+  }
 }
 
 .swiper-item__title {
